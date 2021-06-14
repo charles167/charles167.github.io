@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>register</title>
+</head>
+    <body>
+        <div class="container">
+            <div class="content">
+                All asterics should be filled <br><br>
+                <form action="" method="post">
+                    <input type="text" name="fname" id="fname" class="forms" placeholder="Firstname *" required>
+                    <input type="text" name="sname" id="sname" class="forms" placeholder="Surname *" required>
+                    <input type="text" name="mname" id="mname" class="forms" placeholder="Othername *" required>
+                    <input type="email" name="mail" id="mail" class="forms" placeholder="Yourmail@xyz.com *" required>
+                    <input type="text" name="pnum" id="pnum" class="forms" placeholder="Phonenumber *" required>
+                    <input type="text" name="lecture" id="lecture" class="forms" placeholder="Lecture/Exam applied for *" required>
+                    <input type="text" name="examloc" id="examloc" class="forms" placeholder="Exam Location *" required>
+                    <input type="text" name="dob" id="dob" class="forms" placeholder="DOB e.g YYYY/MM/DD">
+                    <input type="text" name="passportID" id="passportID" class="forms" placeholder="Passport ID *" required>
+                    <input type="text" name="schoolapplied" id="schoolapplied" class="forms" placeholder="School Applied for">
+                    <input type="text" name="schoolcode" id="schoolcode" class="forms" placeholder="School code">
+                    <input type="text" name="countryapplied" id="countryapplied" class="forms" placeholder="Country Applied for">
+                    International Passport N:B Must be in jpeg form <br><br>
+                    <input type="file" name="passport" id="passport" required><br><br>
+                    Passport Photograph N:B Must be in jpeg form <br><br>
+                    <input type="file" name="passport" id="passport" required><br><br>
+                    <textarea rows="10" cols="51" name="message" id="message" placeholder="Message"></textarea>
+                    <fieldset>
+                        <legend>Sex</legend>
+                        <input type="radio" name="sex" id="male" value="male" required><label for="male">Male</label>
+                        <input type="radio" name="sex" id="female" value="female" required><label for="female">Female</label>
+                    </fieldset>
+                    <input type="submit" value="Submit" name="submit" id="submit" class="subm">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

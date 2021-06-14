@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/examinfo.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>technionacademy-SAT-Info</title>
+</head>
+    <body>
+        
+        <header>
+            <div class="topnav">
+                <div class="container">
+                    <span class="soc-links">
+                        <a href="#"><img src="img/twitter.png" alt=""></a>
+                        <a href="#"><img src="img/facebook.png" alt=""></a>
+                        <a href="#"><img src="img/google+.png" alt=""></a>
+                    </span>
+                    <span class="reg">
+                        <ul>
+                            <li><a href="mailto:service@technionacademy.com" class="hide-small">enquires@technionacademy</a></li>
+                            <li><a href="register.html">register now</a></li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+            <div class="container hide-small">
+                <a href="index.html"><img src="img/logo.png" alt="" class="pix"></a>
+                <nav class="navigate">
+                    <ul class="group">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Foreign.html">Foreign Exams</a></li>
+                        <li><a href="professional.html">Professional Exams</a></li>
+                        <li><a href="local.html">Undergraduate Exams</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--moblie view-->
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0);" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="foreign.html">Foreign Exams</a>
+                <a href="professional.html">Professional Exams</a>
+                <a href="local.html">Undergraduate Exams</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>       
+        <div class="container">
+            <span style="font-size: 30px; cursor: pointer;" onclick="openNav()" class="hide-sma">&#9776;</span>
+        </div> 
+        <!--end mobile view-->
+
+        <div class="infobox">
+            <div class="container">
+                <div class="containz">
+                    <span>Why take SAT?</span>
+                    <p>The SAT is an entrance exam used by most colleges and universities to make admissions decisions. The SAT is a multiple-choice, pencil-and-paper test created and administered by the College Board.The purpose of the SAT is to measure a high school student's readiness for college, and provide colleges with one common data point that can be used to compare all applicants.How important SAT scores are in the college application process varies from school to school.
+                    Overall, the higher you score in SAT the higher your admission chances</p>
+                    <span>SAT Sections</span>
+                    <p>There are two  SAT sections: <b>I) Math</b> <b>II) Evidence-Based Reading and Writing</b>
+                        The SAT also includes an optional Essay section. SAT Essay scores are reported separately from overall test scores. Some colleges may require that you complete the SAT Essay. You can confirm each college's admissions policies on the school website or on our  school profiles.
+                        </p>
+                    <span>How long does the SAT test take?</span>
+                    <p>The SAT is 3 hours long. If you choose to take the SAT with Essay, the test will be 3 hours and 50 minutes.</p>
+                    <span>Grading system</span>
+                    <p>Each section of the SAT is scored on a 200 to 800 point scale. Your total SAT score is the sum of your section scores. The highest possible SAT score is 1600. If you take the Essay, you will receive a separate score.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script>
+            function myFunction(){
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+
+        <script>
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+
+
+    </body>
+</html>
